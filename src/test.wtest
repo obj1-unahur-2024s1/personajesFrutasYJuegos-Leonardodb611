@@ -1,0 +1,10 @@
+import frutas.*
+test "la manzana verde aporta 7 de energia" {
+	
+	//da como reslultado verdadero => assert.that(true)
+	//da reusltado como falso  =>assert.notThat(false)
+	//el metodo tiene que dar igual al valor dado  => assert.equals(valor, objeto.mensajeDeConsulta())
+	
+	assert.equals(7, manzana.getEnergia())
+	
+}

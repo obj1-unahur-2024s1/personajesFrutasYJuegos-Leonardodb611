@@ -1,5 +1,5 @@
 import frutas.*
-
+import juegos.*
 
 object martin {
 	

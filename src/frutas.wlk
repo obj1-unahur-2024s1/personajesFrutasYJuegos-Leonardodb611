@@ -1,11 +1,12 @@
 import personajes.*
 
 object manzana {
-	var energia = color.getEnergia()
 	var color = verde
+	var energia = color.getEnergia()
+	
 	
 	method getEnergia(){
-		
+		return energia
 	}
 	
 	method maduroManzana(colorNuevo){

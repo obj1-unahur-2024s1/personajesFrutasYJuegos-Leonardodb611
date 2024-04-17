@@ -1,0 +1,11 @@
+import personajes.*
+import frutas.*
+import juegos.*
+
+
+
+test "testX" {
+
+	assert.notThat(martin.esFeliz())
+
+}
